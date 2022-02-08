@@ -1,0 +1,28 @@
+.container {
+  background-color: hsl(217, 54%, 11%);
+}
+
+#textcontainer {
+  color: azure;
+  font-family: outfit;
+  padding: 10px;
+}
+
+div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  background-color: hsl(215, 51%, 70%);
+  border-radius: 10px;
+  padding: 10px;
+}
+span {
+  color: hsl(178, 100%, 50%);
+}
+
+.center {
+  padding: 10px;
+  border-radius: 20px;
+}
