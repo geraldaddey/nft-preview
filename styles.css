@@ -48,6 +48,7 @@ span {
 .center {
   padding: 10px;
   border-radius: 20px;
+
   filter: opacity(0.5) drop-shadow(0 0 0 rgb(148, 235, 230));
 }
 #imagestyle {
