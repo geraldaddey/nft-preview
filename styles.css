@@ -3,7 +3,7 @@
 }
 
 #textcontainer {
-  color: azure;
+  color: hsl(178, 100%, 50%);
   font-family: outfit;
   margin: 5px;
   padding-left: 5px;
@@ -48,4 +48,8 @@ span {
 #clockiconstyle {
   position: absolute;
   right: 100px;
+}
+
+#namestyle {
+  color: hsl(178, 100%, 50%);
 }
