@@ -36,13 +36,22 @@ span {
   border-radius: 80%;
 }
 
+#eyestyle {
+  filter: invert(1);
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  width: 80px;
+  height: 80px;
+}
+
 .center {
   padding: 10px;
   border-radius: 20px;
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(148, 235, 230));
 }
-
 #imagestyle {
-  position: absolute;
+  position: absolute;s
 }
 
 #clockiconstyle {
@@ -50,6 +59,28 @@ span {
   right: 100px;
 }
 
-#namestyle {
-  color: hsl(180, 1%, 68%);
+.creatorstylenew {
+  font-family: outfit;
+  color: rgb(61, 101, 134);
+  display: inline;
+  position: absolute;
+
+  bottom: 10px;
+  left: 60px;
+}
+
+.creatorstyle {
+  color: hsl(178, 100%, 50%);
+  display: inline;
+  position: relative;
+  left: 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#avatarstyle {
+  border: 2px solid rgb(61, 101, 134);
+  border-radius: 90%;
+  width: 40px;
+  height: 40px;
 }
