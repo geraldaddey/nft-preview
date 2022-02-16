@@ -53,7 +53,8 @@ img {
 }
 
 .card-container:hover img {
-  filter: sepia(100%) hue-rotate(90deg) saturate(400%);
+  filter: sepia(100%) contrast(50%) saturate(500%) hue-rotate(480deg)
+    brightness(150%);
 }
 .card-container:hover #eye {
   opacity: 1;
