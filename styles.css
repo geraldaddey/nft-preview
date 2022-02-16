@@ -1,0 +1,143 @@
+/* asdasdd */
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --dark-blue-mb: hsl(217, 54%, 11%);
+  --dark-blue-cb: hsl(216, 50%, 16%);
+  --very-dark-blue-l: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--dark-blue-mb);
+  font-size: 18px;
+}
+
+.container {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: var(--dark-blue-cb);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.card-container {
+  margin: 20px;
+  padding-top: 20px;
+  border-radius: 15px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+div {
+  margin: 20px;
+  font-size: 16px;
+}
+
+div h4 {
+  color: white;
+  font-weight: bolder;
+}
+
+div h4:hover {
+  color: var(--cyan);
+}
+
+div p:first-of-type {
+  color: var(--soft-blue);
+  font-weight: lighter;
+}
+
+.container > p {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  display: inline-block;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.container > p span {
+  color: var(--soft-blue);
+}
+
+.container > p:hover {
+  color: var(--cyan);
+}
+
+div span {
+  font-weight: lighter;
+}
+
+div span:first-of-type {
+  padding-right: 4rem !important;
+  color: var(--cyan);
+  padding-left: 5px;
+  transition: 2s ease;
+}
+
+div span:first-of-type:hover {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div img:first-of-type {
+  display: inline;
+  position: relative;
+  bottom: -3px;
+  left: 5px;
+  width: 4%;
+  height: 2%;
+}
+
+div img:last-of-type {
+  display: inline;
+  width: 10%;
+  height: 10%;
+  position: relative;
+  right: -2px;
+  bottom: -8px;
+}
+
+div span:last-of-type {
+  color: var(--soft-blue);
+}
+
+.linestyle {
+  border-radius: 80%;
+  width: 80%;
+  border: 0.1px solid var(--soft-blue);
+  opacity: 0.3;
+}
+/* Styling the avatar image  */
+#avatar {
+  width: 10%;
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  bottom: -10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.attribution img {
+  width: 5%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
