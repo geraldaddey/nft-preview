@@ -51,10 +51,6 @@ div h4 {
   font-weight: bolder;
 }
 
-div h4:hover {
-  color: var(--cyan);
-}
-
 div p:first-of-type {
   color: var(--soft-blue);
   font-weight: lighter;
@@ -73,10 +69,6 @@ div p:first-of-type {
   color: var(--soft-blue);
 }
 
-.container > p:hover {
-  color: var(--cyan);
-}
-
 div span {
   font-weight: lighter;
 }
@@ -86,11 +78,6 @@ div span:first-of-type {
   color: var(--cyan);
   padding-left: 5px;
   transition: 2s ease;
-}
-
-div span:first-of-type:hover {
-  font-size: 14px;
-  font-weight: bold;
 }
 
 div img:first-of-type {
