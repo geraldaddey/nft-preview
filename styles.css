@@ -15,6 +15,7 @@ body {
   font-size: 18px;
 }
 
+/* main tag  */
 .container {
   width: 300px;
   max-width: 100%;
@@ -27,6 +28,7 @@ body {
   border-radius: 15px;
 }
 
+/* section tag  */
 .card-container {
   margin: 20px;
   padding-top: 20px;
@@ -50,7 +52,7 @@ body {
   width: 50px;
   height: 50px;
   opacity: 0;
-  transition: 1s ease;
+  transition: ease;
 }
 
 .card-container:hover img {
@@ -62,6 +64,7 @@ body {
   opacity: 1;
 }
 
+/* div tag @l.32  */
 .eth-name {
   padding: 0 20px;
 }
@@ -83,7 +86,7 @@ body {
   font-weight: lighter;
 }
 
-/* Using the flexbox to align items */
+/* Using the flexbox to align items  @l.38*/
 .big-container {
   display: flex;
   justify-content: space-between;
@@ -149,9 +152,9 @@ body {
 }
 
 .attribution {
+  visibility: hidden;
   font-size: 11px;
   text-align: center;
-  visibility: hidden;
 }
 
 .attribution img {
